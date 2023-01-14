@@ -72,14 +72,14 @@
     border-radius: 41px;
     padding: 10px 24px;
 }
-
+.baner-img{
+    background-image: url(../images/Circle\ design.svg);
+}
 .baner-img {
     width: 475px;
     height: 475px;
     display: flex;
-    align-items: center;
-    border: 1px solid #F1E4FF;
-    border-radius: 50%;
+    align-items: center; 
     margin-top: 80px;
 }
 
@@ -99,4 +99,152 @@
 .brand-img img {
     width: 84px;
     height: 26px;
+}
+
+/* product style start */
+.product-title {
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product-item {
+    width: 329px;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding-left: 14px;
+    padding-top: 17px;
+}
+
+.product-item img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+}
+
+.product-prize {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 6px;
+}
+
+.product-ratting {
+    margin-top: 8px;
+}
+
+.product-ratting span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+    margin-left: 8px;
+}
+
+.fa-star {
+    color: #FB8200;
+}
+
+.product-details {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    margin-top: 8px;
+}
+
+.see-more {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 50px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* featured style start */
+.featured {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.feature-img {
+    margin-right: 96px;
+}
+
+.feature-img img {
+    width: 404px;
+    height: 270px;
+    border-radius: 5px;
+}
+
+.featured-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+
+.featured-description {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 16px 0 18px 0;
+}
+
+.featured-btn {
+    color: #ffffff;
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+}
+
+/* footer style start */
+footer {
+    background: #0A0826;
+    margin-top: 100px;
+}
+.footer-details{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.footer-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.copyright{
+    margin: 3px 0 3px 0;
+}
+.copyright, .reserved {
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 17px;
+}
+.social-link i{
+    color: #ffffff;
 }
